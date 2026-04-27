@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  users-service:
+    build: ./users-service
+    ports:
+      - "3001:3001"
+
+  products-service:
+    build: ./products-service
+    ports:
+      - "3002:3002"
+
+  orders-service:
+    build: ./orders-service
+    ports:
+      - "3003:3003"
+
+  gateway:
+    build: ./gateway
+    ports:
+      - "4000:4000"
