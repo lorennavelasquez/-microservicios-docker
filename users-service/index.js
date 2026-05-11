@@ -10,7 +10,7 @@ const clientes = [
 
 // Ruta para obtener todos los clientes
 app.get('/users', (req, res) => {
-    console.log('Consultando clientes de DistriHerramientas...');
+    console.log("Consultando clientes de DistriHerramientas...");
     res.json(clientes);
 });
 
