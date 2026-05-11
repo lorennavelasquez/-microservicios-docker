@@ -10,7 +10,7 @@ const clientes = [
 
 // Ruta para obtener todos los clientes
 app.get('/users', (req, res) => {
-    console.log("Consultando clientes de DistriHerramientas...");
+    console.log('Consultando clientes de DistriHerramientas...');
     res.json(clientes);
 });
 
@@ -23,5 +23,5 @@ app.post('/users', (req, res) => {
 
 const PORT = 3001;
 app.listen(PORT, () => {
-    console.log(`Servicio de Usuarios corriendo en http://localhost:${PORT}`);
+    console.log("Servicio de Usuarios corriendo en http://localhost:${PORT}");
 });
