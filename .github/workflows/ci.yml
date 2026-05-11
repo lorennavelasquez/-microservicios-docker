@@ -20,7 +20,7 @@ jobs:
       - run: npm install
       - run: npx jest
 
-  lint:
+  llint:
     runs-on: ubuntu-latest
     defaults:
       run:
