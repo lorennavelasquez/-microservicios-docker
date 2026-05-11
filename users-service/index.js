@@ -23,5 +23,5 @@ app.post('/users', (req, res) => {
 
 const PORT = 3001;
 app.listen(PORT, () => {
-    console.log('servicio de Usuarios corriendo en http://localhost:${PORT}');
+    console.log("servicio de Usuarios corriendo en http://localhost:${PORT}");
 });
